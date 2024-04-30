@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 20px 0 #006494;
+    padding: 10px;
+}
+li{
+    display: inline-block;
+    margin: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+#title1{
+    font-size: 64px;
+    color: #1B98E0;
+    text-align: center;
+    
+}
+#prod:hover{
+    transform: scale(1.1);
+}
+
+#conect{
+    border: 2px solid #fff;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 8px;
+}
+#conect:hover{
+    background-color:#fff ;
+    color: #000;
+    transition: 0.3s;
+}
+main{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+#text1{
+    font-size: 48px;
+    line-height: 50px;
+    max-width: 500px;
+    
+}
+#text2{
+    font-size: 24px;
+    max-width: 500px;
+}
+#img1{
+    width:241px ;
+    height:369px ;
+}
+#img2{
+    width:306px ;
+    height:321px ;
+
+}
+.icons{
+    padding-top: 30px;
+}
+
+.fa-wifi,.fa-bluetooth-b{
+    width:30px ;
+    height:30px ;
+    color: #1B98E0;
+}
+.fa-github, .fa-instagram,.fa-whatsapp{
+    font-size: 30px;
+    width: 60px;  
+}
+
+
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top:100px ;
+}
+button{
+    border: none;
+    padding: 20px 80px 20px 80px ;
+    text-transform: uppercase;
+    font-size: 40px;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+.compre{
+    background-color: #006494;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.compre:hover{
+    transform:scale(1.01);
+}
+.saiba{
+    background-color: black;
+    border: 2px solid #fff;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 10px;
+    
+}
+.saiba:hover{
+    background-color: #fff;
+    color: black;
+    transition: 200ms;
+}
+footer{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 20px 30px 20px   
+
+}
+h5,#pf{
+    color: red;
+    font-size: 16px;
+}
+h4{
+    font-size: 20px;
+}
+.fa-brands:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.fa-bluetooth-b:hover{
+    color: #006494;
+    transform: scale(1.1);
+}
+.fa-wifi:hover{
+    color: #006494;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media(max-width:728px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    header ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #prod{
+        font-size: 20px;
+    }
+    #title1{
+        font-size: 60px;
+        
+    }
+    .section1, .section2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .section2{
+        padding: 10px 40px 10px 40px ;
+    
+    }
+    #text2, #text1{
+        padding-top: 20px;
+
+    } 
+    .compre{
+        
+    
+    border-radius: 10px;
+    text-align: center;
+
+    }
+    button{
+        border: none;
+        padding: 20px 70px 20px 70px ;
+        text-transform: uppercase;
+        font-size: 20px;
+        text-align: center;
+    }
+        
+       
+        
+        .fa-bluetooth,.fa-wifi{
+            padding-top: 10px;
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 24px;
+        }
+        
+        footer h4{
+            font-size: 18px;
+
+        }
+
+        .fa-github, .fa-instagram, .fa-whatsapp{
+            font-size: 25px;
+    width: 60px;
+
+        } 
+        
+    
+    
+    
+
+    
+   
+    
+
+
+
+}
+
+
+
+
+
+
